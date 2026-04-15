@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Comfort Extras">
+  <rect width="120" height="120" rx="16" fill="#f8f7f4"/>
+  <g transform="translate(20,22)">
+    <ellipse cx="24" cy="28" rx="28" ry="18" fill="#D4AF37"/>
+    <rect x="10" y="56" width="60" height="12" rx="6" fill="#1E3A8A"/>
+  </g>
+</svg>

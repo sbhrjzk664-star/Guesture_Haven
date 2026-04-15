@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Laundry & Care">
+  <rect width="120" height="120" rx="16" fill="#f8f7f4"/>
+  <!-- Washing Machine -->
+  <rect x="20" y="20" width="80" height="70" rx="8" fill="#1E3A8A" stroke="#D4AF37" stroke-width="2"/>
+  <!-- Door circle -->
+  <circle cx="60" cy="55" r="28" fill="#f8f7f4" stroke="#D4AF37" stroke-width="2"/>
+  <!-- Inner circle -->
+  <circle cx="60" cy="55" r="22" fill="none" stroke="#D4AF37" stroke-width="1.5" opacity="0.5"/>
+  <!-- Wash cycles dots -->
+  <circle cx="45" cy="40" r="2" fill="#D4AF37"/>
+  <circle cx="60" cy="35" r="2" fill="#D4AF37"/>
+  <circle cx="75" cy="40" r="2" fill="#D4AF37"/>
+  <!-- Control panel line -->
+  <line x1="25" y1="78" x2="95" y2="78" stroke="#D4AF37" stroke-width="2" stroke-linecap="round"/>
+  <!-- Detergent bottle -->
+  <rect x="15" y="95" width="12" height="18" rx="2" fill="#D4AF37"/>
+  <rect x="17" y="92" width="8" height="4" rx="1" fill="#8B7500"/>
+  <!-- Clothes hanging -->
+  <rect x="75" y="92" width="30" height="18" rx="4" fill="#1E3A8A" opacity="0.3" stroke="#1E3A8A" stroke-width="1.5"/>
+</svg>

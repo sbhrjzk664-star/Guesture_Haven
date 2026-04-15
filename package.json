@@ -1,0 +1,17 @@
+{
+  "name": "guesture_haven",
+  "version": "1.0.0",
+  "description": "Hotel essentials platform with online store and B2B wholesale section",
+  "author": "Guesture_Haven",
+  "license": "MIT",
+  "private": true,
+  "keywords": ["hotel", "essentials", "ecommerce", "wholesale", "hospitality"],
+  "scripts": {
+    "start": "npx serve .",
+    "serve": "npx serve .",
+    "build": "echo 'Static site - no build needed'"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

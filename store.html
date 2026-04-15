@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no,maximum-scale=5">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>Guesture_Haven — Hotel Essentials Store</title>
+  <link rel="stylesheet" href="css/store.css">
+  <script src="https://js.paystack.co/v1/inline.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Guesture_Haven</a>
+      <nav aria-label="Primary">
+        <ul class="nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#shop">Shop</a></li>
+          <li><a href="wholesale.html">Wholesale</a></li>
+          <li><a href="#cart">Cart <span class="cart-count">0</span></a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <h1>Guesture_Haven Store</h1>
+        <p class="lead">Premium hotel essentials delivered to your door.</p>
+        <a class="btn-primary" href="#shop">Start Shopping</a>
+      </div>
+    </section>
+
+    <section id="shop" class="container shop">
+      <h2>Shop Essentials</h2>
+      <div class="shop-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="toiletries">Toiletries</button>
+        <button class="filter-btn" data-filter="comfort">Comfort</button>
+        <button class="filter-btn" data-filter="connectivity">Connectivity</button>
+        <button class="filter-btn" data-filter="snacks">Snacks</button>
+        <button class="filter-btn" data-filter="laundry">Laundry</button>
+        <button class="filter-btn" data-filter="wellness">Wellness</button>
+      </div>
+      <div class="products-grid" id="productsGrid"></div>
+    </section>
+
+    <section id="cart" class="container cart-section">
+      <h2>Shopping Cart</h2>
+      <div id="cartContainer" class="cart-container">
+        <div class="empty-cart">
+          <p>Your cart is empty</p>
+          <a class="btn-primary" href="#shop">Continue Shopping</a>
+        </div>
+      </div>
+      <div id="paymentModal" class="payment-modal" style="display:none;">
+        <div class="payment-modal-content">
+          <span class="payment-close" onclick="closePaymentModal()">&times;</span>
+          <h3>Checkout Options</h3>
+          <div class="checkout-options">
+            <button class="checkout-option" onclick="initPaystack()">
+              <div class="option-icon">💳</div>
+              <div class="option-text">
+                <strong>Pay with Paystack</strong>
+                <small>Card, Mobile Money, Bank Transfer</small>
+              </div>
+            </button>
+            <button class="checkout-option" onclick="checkoutWhatsApp()">
+              <div class="option-icon">💬</div>
+              <div class="option-text">
+                <strong>Order via WhatsApp</strong>
+                <small>Confirm payment separately</small>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="container about">
+      <h2>About Guesture_Haven</h2>
+      <p>We partner with hotels to provide high-quality essentials that guests love. Our curated selection focuses on sustainability, convenience, and delightful presentation.</p>
+    </section>
+
+    <section id="suggestions" class="container suggestions-section">
+      <h2>Share Your Idea</h2>
+      <p>Have a suggestion for a product or service? We'd love to hear from you! Your feedback helps us improve.</p>
+      <form class="suggestion-form" onsubmit="submitSuggestion(event)">
+        <div class="form-group">
+          <label for="suggestionName">Your Name *</label>
+          <input type="text" id="suggestionName" name="name" required placeholder="Enter your name">
+        </div>
+        <div class="form-group">
+          <label for="suggestionEmail">Email *</label>
+          <input type="email" id="suggestionEmail" name="email" required placeholder="Enter your email">
+        </div>
+        <div class="form-group">
+          <label for="suggestionPhone">Phone Number</label>
+          <input type="tel" id="suggestionPhone" name="phone" placeholder="Enter your phone number">
+        </div>
+        <div class="form-group">
+          <label for="suggestionCategory">Category *</label>
+          <select id="suggestionCategory" name="category" required>
+            <option value="">Select a category</option>
+            <option value="product">New Product Idea</option>
+            <option value="service">Service Suggestion</option>
+            <option value="improvement">Improvement Idea</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="suggestionMessage">Your Suggestion *</label>
+          <textarea id="suggestionMessage" name="message" required placeholder="Tell us your idea..." rows="5"></textarea>
+        </div>
+        <button type="submit" class="btn-primary">Submit Suggestion</button>
+      </form>
+    </section>
+  </main>
+
+  <footer id="contact" class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <p>&copy; <span id="year"></span> Guesture_Haven • All rights reserved.</p>
+        <p>Contact: <a href="mailto:guesturehaven@gmail.com">guesturehaven@gmail.com</a></p>
+      </div>
+      <div class="footer-whatsapp">
+        <a class="btn-whatsapp-footer" href="#" id="whatsappCheckout">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.076 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421-7.403h-.004c-1.427 0-2.834.356-4.06 1.031l-.291.16-.301-.047C5.932 6.56 5.132 5.76 5.132 4.77c0-1.936 1.576-3.511 3.512-3.511 1.936 0 3.511 1.575 3.511 3.511 0 .938-.38 1.787-.995 2.406-.612.61-1.454.995-2.406.995m8.817-8.772C19.945.848 16.3-1 12 1 7.701-1 4.056.848 2.204 3.611-.656 7.134-.656 11.866 2.204 15.389 4.056 18.152 7.701 20 12 20c4.299 0 7.945-1.848 9.796-4.611 3.861-3.523 3.861-8.255 0-11.778zM12 18.667c-3.671 0-7.013-1.648-8.735-4.244-1.721-2.597-1.721-6.09 0-8.687 1.722-2.596 5.064-4.244 8.735-4.244s7.013 1.648 8.735 4.244c1.721 2.597 1.721 6.09 0 8.687-1.722 2.596-5.064 4.244-8.735 4.244z"/>
+          </svg>
+          Checkout on WhatsApp
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/store.js"></script>
+</body>
+</html>

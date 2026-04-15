@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Toiletries">
+  <rect width="120" height="120" rx="16" fill="#f8f7f4"/>
+  <g transform="translate(18,16)">
+    <rect x="6" y="8" width="36" height="64" rx="6" fill="#D4AF37"/>
+    <rect x="56" y="22" width="36" height="50" rx="6" fill="#1E3A8A"/>
+    <circle cx="24" cy="28" r="4" fill="#fff" opacity="0.9"/>
+    <rect x="64" y="10" width="12" height="6" rx="2" fill="#fff" opacity="0.9"/>
+  </g>
+</svg>

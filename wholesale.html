@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no,maximum-scale=5">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>Guesture_Haven — Bulk & Wholesale</title>
+  <link rel="stylesheet" href="css/store.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Guesture_Haven</a>
+      <nav aria-label="Primary">
+        <ul class="nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="store.html">Shop</a></li>
+          <li><a href="wholesale.html" class="active">Wholesale</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <h1>Bulk & Wholesale Orders</h1>
+        <p class="lead">Premium hotel essentials at wholesale prices for hotels, resorts, and corporate clients.</p>
+      </div>
+    </section>
+
+    <section class="container wholesale-section">
+      <h2>Why Choose Guesture_Haven for Wholesale?</h2>
+      <div class="benefits-grid">
+        <div class="benefit-card">
+          <div class="benefit-icon">📦</div>
+          <h3>Bulk Discounts</h3>
+          <p>Save up to 40% on orders of 100+ units. Larger orders = bigger savings.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon">🚚</div>
+          <h3>Fast Shipping</h3>
+          <p>Dedicated logistics for bulk orders. Expedited delivery available.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon">🎨</div>
+          <h3>Custom Branding</h3>
+          <p>Add your hotel logo to packaging and products. White-label options available.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon">📞</div>
+          <h3>Dedicated Support</h3>
+          <p>Personal account manager for all wholesale accounts.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="container pricing-section">
+      <h2>Wholesale Pricing</h2>
+      <div class="pricing-grid">
+        <div class="pricing-tier">
+          <h3>Starter</h3>
+          <div class="tier-badge">100-500 units</div>
+          <div class="discount">25% Off</div>
+          <ul class="tier-features">
+            <li>All product categories</li>
+            <li>Standard shipping</li>
+            <li>Basic support</li>
+          </ul>
+          <a href="#contact-form" class="btn-primary">Request Quote</a>
+        </div>
+
+        <div class="pricing-tier featured">
+          <div class="popular-badge">Most Popular</div>
+          <h3>Growth</h3>
+          <div class="tier-badge">500-2000 units</div>
+          <div class="discount">30% Off</div>
+          <ul class="tier-features">
+            <li>All product categories</li>
+            <li>Priority shipping</li>
+            <li>Dedicated support</li>
+            <li>Custom packaging</li>
+          </ul>
+          <a href="#contact-form" class="btn-primary">Request Quote</a>
+        </div>
+
+        <div class="pricing-tier">
+          <h3>Enterprise</h3>
+          <div class="tier-badge">2000+ units</div>
+          <div class="discount">35-40% Off</div>
+          <ul class="tier-features">
+            <li>Custom assortments</li>
+            <li>Express shipping</li>
+            <li>Account manager</li>
+            <li>White-label options</li>
+          </ul>
+          <a href="#contact-form" class="btn-primary">Contact Sales</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="container bulk-products">
+      <h2>Popular Bulk Items</h2>
+      <div class="bulk-grid">
+        <div class="bulk-card">
+          <img src="assets/toiletries.svg" alt="Toiletries">
+          <h3>Toiletries Bundles</h3>
+          <p>Shampoo, conditioner, soap sets</p>
+          <div class="bulk-price">From GHS 60/unit (bulk)</div>
+          <a href="#contact-form" class="btn-bulk">Request Bulk Quote</a>
+        </div>
+
+        <div class="bulk-card">
+          <img src="assets/comfort.svg" alt="Comfort">
+          <h3>Comfort Kits</h3>
+          <p>Slippers, pillows, throws</p>
+          <div class="bulk-price">From GHS 135/unit (bulk)</div>
+          <a href="#contact-form" class="btn-bulk">Request Bulk Quote</a>
+        </div>
+
+        <div class="bulk-card">
+          <img src="assets/connectivity.svg" alt="Connectivity">
+          <h3>Tech Kits</h3>
+          <p>Chargers, adapters, cables</p>
+          <div class="bulk-price">From GHS 105/unit (bulk)</div>
+          <a href="#contact-form" class="btn-bulk">Request Bulk Quote</a>
+        </div>
+
+        <div class="bulk-card">
+          <img src="assets/wellness.svg" alt="Wellness">
+          <h3>Wellness Packs</h3>
+          <p>First-aid, sanitizer, masks</p>
+          <div class="bulk-price">From GHS 75/unit (bulk)</div>
+          <a href="#contact-form" class="btn-bulk">Request Bulk Quote</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact-form" class="container contact-section">
+      <h2>Request a Wholesale Quote</h2>
+      <div class="form-container">
+        <form onsubmit="submitWholesaleForm(event)">
+          <div class="form-group">
+            <label for="company">Company Name *</label>
+            <input type="text" id="company" name="company" required>
+          </div>
+
+          <div class="form-group">
+            <label for="contact">Contact Person *</label>
+            <input type="text" id="contact" name="contact" required>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="email">Email *</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone *</label>
+              <input type="tel" id="phone" name="phone" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="quantity">Estimated Quantity (units) *</label>
+            <input type="number" id="quantity" name="quantity" min="100" required>
+          </div>
+
+          <div class="form-group">
+            <label for="products">Interested Products *</label>
+            <textarea id="products" name="products" rows="3" placeholder="List products or categories..." required></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="requirements">Special Requirements</label>
+            <textarea id="requirements" name="requirements" rows="3" placeholder="Custom branding, delivery timeline, etc."></textarea>
+          </div>
+
+          <button type="submit" class="btn-primary">Send Inquiry</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="container faq-section">
+      <h2>Frequently Asked Questions</h2>
+      <div class="faq-grid">
+        <div class="faq-item">
+          <h3>What's the minimum order quantity?</h3>
+          <p>Our minimum bulk order is 100 units. Custom orders below this can be arranged for enterprise clients.</p>
+        </div>
+
+        <div class="faq-item">
+          <h3>Do you offer customization?</h3>
+          <p>Yes! We offer custom packaging, branding, and white-label options for orders 500+ units.</p>
+        </div>
+
+        <div class="faq-item">
+          <h3>What's your delivery timeframe?</h3>
+          <p>Standard: 5-7 business days. Express: 2-3 business days. Expedited options available for enterprise orders.</p>
+        </div>
+
+        <div class="faq-item">
+          <h3>Do you offer volume discounts?</h3>
+          <p>Absolutely! Discounts start at 25% for 100+ units and increase to 40% for 2000+ units.</p>
+        </div>
+
+        <div class="faq-item">
+          <h3>Can I mix products in bulk orders?</h3>
+          <p>Yes, you can create custom assortments. Minimum 100 units per product type applies.</p>
+        </div>
+
+        <div class="faq-item">
+          <h3>Is there a dedicated account manager?</h3>
+          <p>Yes, all wholesale accounts (500+ units annually) get a dedicated account manager for support and orders.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <p>&copy; <span id="year"></span> Guesture_Haven • All rights reserved.</p>
+        <p>Contact: <a href="mailto:guesturehaven@gmail.com">guesturehaven@gmail.com</a></p>
+      </div>
+      <div class="footer-whatsapp">
+        <a class="btn-whatsapp-footer" href="https://wa.me/0506993828?text=Hi%20Guesture_Haven%2C%20I%27m%20interested%20in%20wholesale%2Fbulk%20orders" target="_blank" rel="noopener noreferrer">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.076 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421-7.403h-.004c-1.427 0-2.834.356-4.06 1.031l-.291.16-.301-.047C5.932 6.56 5.132 5.76 5.132 4.77c0-1.936 1.576-3.511 3.512-3.511 1.936 0 3.511 1.575 3.511 3.511 0 .938-.38 1.787-.995 2.406-.612.61-1.454.995-2.406.995m8.817-8.772C19.945.848 16.3-1 12 1 7.701-1 4.056.848 2.204 3.611-.656 7.134-.656 11.866 2.204 15.389 4.056 18.152 7.701 20 12 20c4.299 0 7.945-1.848 9.796-4.611 3.861-3.523 3.861-8.255 0-11.778zM12 18.667c-3.671 0-7.013-1.648-8.735-4.244-1.721-2.597-1.721-6.09 0-8.687 1.722-2.596 5.064-4.244 8.735-4.244s7.013 1.648 8.735 4.244c1.721 2.597 1.721 6.09 0 8.687-1.722 2.596-5.064 4.244-8.735 4.244z"/>
+          </svg>
+          Chat on WhatsApp
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/wholesale.js"></script>
+</body>
+</html>
