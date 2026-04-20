@@ -4,15 +4,10 @@ const products = [
   { id: 3, name: 'Soap Set', price: 150, category: 'toiletries', image: 'assets/soap-set.jpg', desc: '3-piece premium soap' },
   { id: 4, name: 'Luxury Slippers', price: 225, category: 'comfort', image: 'assets/DVA05553.JPG', desc: 'Soft & comfortable' },
   { id: 5, name: 'Cable Kit', price: 180, category: 'connectivity', image: 'assets/connectivity.svg', desc: '5 cable set' },
-  { id: 6, name: 'Chocolate Box', price: 210, category: 'snacks', image: 'assets/minibar.svg', desc: 'Assorted chocolates' },
-  { id: 7, name: 'Nuts Mix', price: 150, category: 'snacks', image: 'assets/minibar.svg', desc: 'Healthy mix' },
-  { id: 8, name: 'Coffee & Tea', price: 180, category: 'snacks', image: 'assets/minibar.svg', desc: 'Premium blends' },
-  { id: 9, name: 'Laundry Bag', price: 90, category: 'laundry', image: 'assets/laundry.svg', desc: 'Durable bag' },
-  { id: 10, name: 'Stain Kit', price: 135, category: 'laundry', image: 'assets/laundry.svg', desc: 'Quick stain removal' },
-  { id: 11, name: 'Iron Kit', price: 105, category: 'laundry', image: 'assets/laundry.svg', desc: 'Mini iron & supplies' },
-  { id: 12, name: 'First Aid Kit', price: 240, category: 'wellness', image: 'assets/wellness.svg', desc: 'Complete kit' },
-  { id: 13, name: 'Sleep Mask', price: 120, category: 'wellness', image: 'assets/wellness.svg', desc: 'Comfortable mask' },
-  { id: 14, name: 'Sanitizer Set', price: 150, category: 'wellness', image: 'assets/wellness.svg', desc: '3-piece set' }
+  { id: 6, name: 'Laundry Bag', price: 90, category: 'laundry', image: 'assets/laundry.svg', desc: 'Durable bag' },
+  { id: 7, name: 'First Aid Kit', price: 240, category: 'wellness', image: 'assets/wellness.svg', desc: 'Complete kit' },
+  { id: 8, name: 'Sleep Mask', price: 120, category: 'wellness', image: 'assets/wellness.svg', desc: 'Comfortable mask' },
+  { id: 9, name: 'Sanitizer Set', price: 150, category: 'wellness', image: 'assets/wellness.svg', desc: '3-piece set' }
 ];
 
 let cart = [];
