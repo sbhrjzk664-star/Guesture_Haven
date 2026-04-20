@@ -1,5 +1,5 @@
 const products = [
-  { id: 1, name: 'Premium Shampoo', price: 135, category: 'toiletries', image: 'assets/IOOE6891.jpg', desc: '250ml luxury shampoo' },
+  { id: 1, name: 'Premium Shampoo', price: 135, category: 'toiletries', image: 'assets/EKTX0444.JPG', desc: '250ml luxury shampoo' },
   { id: 2, name: 'Body Lotion', price: 120, category: 'toiletries', image: 'assets/body-lotion.jpg', desc: 'Moisturizing lotion' },
   { id: 3, name: 'Soap Set', price: 150, category: 'toiletries', image: 'assets/soap-set.jpg', desc: '3-piece premium soap' },
   { id: 4, name: 'Luxury Slippers', price: 225, category: 'comfort', image: 'assets/DVA05553.JPG', desc: 'Soft & comfortable' },
