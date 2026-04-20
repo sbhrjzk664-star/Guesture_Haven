@@ -7,7 +7,8 @@ const products = [
   { id: 6, name: 'Laundry Bag', price: 90, category: 'laundry', image: 'assets/laundry.svg', desc: 'Durable bag' },
   { id: 7, name: 'First Aid Kit', price: 240, category: 'wellness', image: 'assets/wellness.svg', desc: 'Complete kit' },
   { id: 8, name: 'Sleep Mask', price: 120, category: 'wellness', image: 'assets/wellness.svg', desc: 'Comfortable mask' },
-  { id: 9, name: 'Sanitizer Set', price: 150, category: 'wellness', image: 'assets/wellness.svg', desc: '3-piece set' }
+  { id: 9, name: 'Sanitizer Set', price: 150, category: 'wellness', image: 'assets/wellness.svg', desc: '3-piece set' },
+  { id: 10, name: 'Satin Tote Bag', price: 195, category: 'accessories', image: 'assets/satin-tote-bag.jpg', desc: 'Elegant and spacious tote' }
 ];
 
 let cart = [];
