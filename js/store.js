@@ -9,8 +9,9 @@ const products = [
   { id: 8, name: 'Sleep Mask', price: 120, category: 'wellness', image: 'assets/wellness.svg', desc: 'Comfortable mask' },
   { id: 9, name: 'Sanitizer Set', price: 150, category: 'wellness', image: 'assets/wellness.svg', desc: '3-piece set' },
   { id: 10, name: 'Satin Tote Bag', price: 195, category: 'accessories', image: 'assets/RTLW7379.JPG', desc: 'Elegant and spacious tote' },
-  { id: 11, name: 'Toothbrush', price: 45, category: 'toiletries', image: 'assets/toothbrush.jpg', desc: 'Soft bristle toothbrush' },
-  { id: 12, name: 'Toothpaste', price: 35, category: 'toiletries', image: 'assets/toothpaste.jpg', desc: 'Fluoride toothpaste 100ml' }
+  { id: 11, name: 'Toothbrush', price: 45, category: 'toiletries', image: 'assets/RZDD9447.JPG', desc: 'Soft bristle toothbrush' },
+  { id: 12, name: 'Toothpaste', price: 35, category: 'toiletries', image: 'assets/RZDD9447.JPG', desc: 'Fluoride toothpaste 100ml' },
+  { id: 13, name: 'Hair Comb', price: 25, category: 'toiletries', image: 'assets/hair-comb.jpg', desc: 'Wide-tooth comb for all hair types' }
 ];
 
 let cart = [];
