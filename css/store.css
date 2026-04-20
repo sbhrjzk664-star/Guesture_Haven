@@ -190,7 +190,7 @@ body{
   .product-desc{font-size:0.7rem}
   .cart-item{flex-direction:column;text-align:center}
   .remove-btn{width:100%}
-}
+
 
 /* Payment Modal */
 .payment-modal{
