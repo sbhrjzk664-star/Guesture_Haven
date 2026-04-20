@@ -8,7 +8,9 @@ const products = [
   { id: 7, name: 'First Aid Kit', price: 240, category: 'wellness', image: 'assets/wellness.svg', desc: 'Complete kit' },
   { id: 8, name: 'Sleep Mask', price: 120, category: 'wellness', image: 'assets/wellness.svg', desc: 'Comfortable mask' },
   { id: 9, name: 'Sanitizer Set', price: 150, category: 'wellness', image: 'assets/wellness.svg', desc: '3-piece set' },
-  { id: 10, name: 'Satin Tote Bag', price: 195, category: 'accessories', image: 'assets/satin-tote-bag.jpg', desc: 'Elegant and spacious tote' }
+  { id: 10, name: 'Satin Tote Bag', price: 195, category: 'accessories', image: 'assets/RTLW7379.JPG', desc: 'Elegant and spacious tote' },
+  { id: 11, name: 'Toothbrush', price: 45, category: 'toiletries', image: 'assets/toothbrush.jpg', desc: 'Soft bristle toothbrush' },
+  { id: 12, name: 'Toothpaste', price: 35, category: 'toiletries', image: 'assets/toothpaste.jpg', desc: 'Fluoride toothpaste 100ml' }
 ];
 
 let cart = [];
