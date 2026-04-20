@@ -2,7 +2,7 @@ const products = [
   { id: 1, name: 'Premium Shampoo', price: 135, category: 'toiletries', image: 'assets/EKTX0444.JPG', desc: '250ml luxury shampoo' },
   { id: 2, name: 'Body Lotion', price: 120, category: 'toiletries', image: 'assets/body-lotion.jpg', desc: 'Moisturizing lotion' },
   { id: 3, name: 'Soap Set', price: 150, category: 'toiletries', image: 'assets/soap-set.jpg', desc: '3-piece premium soap' },
-  { id: 4, name: 'Luxury Slippers', price: 225, category: 'comfort', image: 'assets/DVA05553.JPG', desc: 'Soft & comfortable' },
+  { id: 4, name: 'Luxury Slippers', price: 225, category: 'comfort', image: 'assets/DVAO5553.JPG', desc: 'Soft & comfortable' },
   { id: 5, name: 'Cable Kit', price: 180, category: 'connectivity', image: 'assets/connectivity.svg', desc: '5 cable set' },
   { id: 6, name: 'Laundry Bag', price: 90, category: 'laundry', image: 'assets/laundry.svg', desc: 'Durable bag' },
   { id: 7, name: 'First Aid Kit', price: 240, category: 'wellness', image: 'assets/wellness.svg', desc: 'Complete kit' },
@@ -11,7 +11,7 @@ const products = [
   { id: 10, name: 'Satin Tote Bag', price: 195, category: 'accessories', image: 'assets/RTLW7379.JPG', desc: 'Elegant and spacious tote' },
   { id: 11, name: 'Toothbrush', price: 45, category: 'toiletries', image: 'assets/RZDD9447.JPG', desc: 'Soft bristle toothbrush' },
   { id: 12, name: 'Toothpaste', price: 35, category: 'toiletries', image: 'assets/RZDD9447.JPG', desc: 'Fluoride toothpaste 100ml' },
-  { id: 13, name: 'Hair Comb', price: 25, category: 'toiletries', image: 'assets/hair-comb.jpg', desc: 'Wide-tooth comb for all hair types' }
+  { id: 13, name: 'Hair Comb', price: 25, category: 'toiletries', image: 'assets/BOMP6000.JPG', desc: 'Wide-tooth comb for all hair types' }
 ];
 
 let cart = [];
