@@ -9,7 +9,7 @@ const products = [
   { id: 12, name: 'Toothpaste', price: 35, category: 'toiletries', image: 'assets/RZDD9447.JPG', desc: 'Fluoride toothpaste 100ml' },
   { id: 13, name: 'Hair Comb', price: 25, category: 'toiletries', image: 'assets/BOMP6000.JPG', desc: 'Wide-tooth comb for all hair types' },
   { id: 14, name: 'Shower Gel', price: 100, category: 'toiletries', image: 'assets/toiletries.svg', desc: 'Refreshing shower gel' },
-  { id: 15, name: 'Hairband', price: 50, category: 'accessories', image: 'assets/BOMP6000.JPG', desc: 'Comfortable hairband' },
+  { id: 15, name: 'Hairband', price: 50, category: 'accessories', image: 'assets/FWOA9295.JPG', desc: 'Comfortable hairband' },
   { id: 16, name: 'Nail Care Kit', price: 180, category: 'wellness', image: 'assets/wellness.svg', desc: 'Complete nail care set' }
 ];
 
