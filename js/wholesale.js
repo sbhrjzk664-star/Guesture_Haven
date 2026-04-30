@@ -11,7 +11,7 @@ function submitWholesaleForm(e) {
   
   const message = `Wholesale Inquiry:\n\nCompany: ${company}\nContact: ${contact}\nEmail: ${email}\nPhone: ${phone}\nQuantity: ${quantity} units\n\nProducts: ${products}\n\nRequirements: ${requirements || 'None'}`;
   
-  const whatsappUrl = `https://wa.me/0506993828?text=${encodeURIComponent(message)}`;
+  const whatsappUrl = `https://wa.me/233506993828?text=${encodeURIComponent(message)}`;
   window.open(whatsappUrl, '_blank');
 }
 

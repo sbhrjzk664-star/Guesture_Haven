@@ -135,7 +135,7 @@ function checkout() {
   const itemsList = cart.map(item => `${item.qty}x ${item.name} (GHS ${item.price * item.qty})`).join('\n');
   const message = `Hi Guesture_Haven! I'd like to order:\n\n${itemsList}\n\nTotal: GHS ${total}\n\nPlease confirm.`;
   
-  const whatsappUrl = `https://wa.me/0506993828?text=${encodeURIComponent(message)}`;
+  const whatsappUrl = `https://wa.me/233506993828?text=${encodeURIComponent(message)}`;
   window.open(whatsappUrl, '_blank');
 }
 
@@ -198,7 +198,7 @@ function initPaystack() {
       alert('Payment successful! Reference: ' + response.reference);
       // Here you would typically send the order to your backend
       const orderDetails = `Payment received!\n\nReference: ${response.reference}\nItems: ${itemsList}\nTotal: GHS ${total}`;
-      const whatsappUrl = `https://wa.me/0506993828?text=${encodeURIComponent('Hi Guesture_Haven! ' + orderDetails)}`;
+      const whatsappUrl = `https://wa.me/233506993828?text=${encodeURIComponent('Hi Guesture_Haven! ' + orderDetails)}`;
       window.open(whatsappUrl, '_blank');
       cart = [];
       updateCartCount();
@@ -229,7 +229,7 @@ function submitSuggestion(event) {
   
   const suggestionText = `Hi Guesture_Haven!\n\n📝 *New Suggestion*\n\nName: ${name}\nEmail: ${email}\nPhone: ${phone}\nCategory: ${category}\n\nMessage:\n${message}`;
   
-  const whatsappUrl = `https://wa.me/0506993828?text=${encodeURIComponent(suggestionText)}`;
+  const whatsappUrl = `https://wa.me/233506993828?text=${encodeURIComponent(suggestionText)}`;
   window.open(whatsappUrl, '_blank');
   
   // Reset form
