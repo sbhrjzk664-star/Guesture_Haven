@@ -30,7 +30,7 @@ Then open: `http://localhost:3000`
 
 ### Online Store (store.html)
 - 18 pre-loaded products across 6 categories
-- Category filtering (Toiletries, Comfort, Connectivity, Snacks, Laundry, Wellness)
+- Category filtering (Toiletries, Comfort, Connectivity, Laundry, Wellness)
 - Shopping cart with quantity adjustment
 - Real-time cart counter badge
 - WhatsApp checkout integration
