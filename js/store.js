@@ -1,5 +1,5 @@
 const products = [
-  { id: 1, name: 'Soft-Life Gold Mine Collection', price: 1325, category: 'collection', image: 'assets/EKTX0444.JPG', desc: 'Premium hotel essentials bundle: Luxury Slippers, Premium Shampoo, Body Lotion, Soap Set, Shower Gel, Hairband, Toothbrush, Toothpaste, Hair Comb, Nail Care Kit, Laundry Bag & Satin Tote Bag' }
+  { id: 1, name: 'Soft-Life Gold Mine Collection', price: 150, category: 'collection', image: 'assets/EKTX0444.JPG', desc: 'Premium hotel essentials bundle: Luxury Slippers, Premium Shampoo, Body Lotion, Soap Set, Shower Gel, Hairband, Toothbrush, Toothpaste, Hair Comb, Nail Care Kit, Laundry Bag & Satin Tote Bag' }
 ];
 
 let cart = [];
