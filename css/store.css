@@ -29,6 +29,25 @@ body{
   color: white;
   padding: 3rem 1rem;
 }
+.hero-banner{
+  background-attachment: fixed;
+  position: relative;
+}
+.hero-banner::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(30, 58, 138, 0.65);
+  z-index: 1;
+  pointer-events: none;
+}
+.hero-banner .hero-inner{
+  position: relative;
+  z-index: 2;
+}
 .hero-inner{text-align:center}
 .hero h1{font-size:clamp(1.5rem,5vw,2.5rem);margin:0 0 .75rem}
 .lead{opacity:0.95;margin:0 0 1.5rem;font-size:clamp(.95rem,2vw,1.1rem)}
@@ -80,6 +99,13 @@ body{
 .about{padding:2rem 1rem;background:rgba(212,175,55,0.08);margin:2rem 0}
 .about h2{font-size:clamp(1.3rem,4vw,1.8rem)}
 .about p{font-size:0.95rem;line-height:1.6}
+.about-grid{display:grid;grid-template-columns:1.2fr 0.8fr;gap:1.5rem;align-items:center;margin-top:1.5rem}
+.about-copy{max-width:680px}
+.ceo-profile{background:white;border-radius:16px;box-shadow:0 16px 40px rgba(15,23,42,0.08);overflow:hidden;text-align:center}
+.ceo-profile img{width:100%;height:auto;display:block;object-fit:cover}
+.ceo-text{padding:1.25rem}
+.ceo-title{font-size:1rem;font-weight:700;color:var(--blue);margin-bottom:0.5rem}
+.ceo-text p{font-size:0.95rem;color:#475569;line-height:1.7;margin:0}
 
 .site-footer{background:#0b1220;color:white;padding:1.5rem 1rem;margin-top:2rem}
 .footer-inner{display:flex;justify-content:space-between;gap:1.5rem;align-items:center;flex-wrap:wrap}
@@ -350,6 +376,8 @@ body{
   .about{padding:1.5rem 1rem;margin:1.5rem 0}
   .about h2{font-size:1.2rem}
   .about p{font-size:0.85rem}
+  .about-grid{grid-template-columns:1fr;gap:1rem}
+  .ceo-profile{max-width:300px;margin:1rem auto}
   .footer-inner{flex-direction:column;align-items:flex-start;gap:1rem}
   .footer-whatsapp{margin-left:0;width:100%}
   .btn-whatsapp-footer{width:100%;justify-content:center}
