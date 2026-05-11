@@ -205,6 +205,7 @@ body{
   .suggestions-section{padding:2rem 1rem;margin:1.5rem 0}
   .suggestions-section h2{font-size:1.3rem}
   .suggestion-form .form-group textarea{min-height:100px}
+  .hero-banner{background-attachment:scroll!important;background-size:cover;background-position:center}
 }
   .logo{font-size:1rem}
   .nav a{padding:.35rem .4rem;font-size:.85rem}
